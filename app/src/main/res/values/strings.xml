@@ -1,3 +1,125 @@
 <resources>
     <string name="app_name">Improve Your Posture in 30 Days</string>
+
+    <!-- Day 1: Chin Tucks -->
+    <string name="day1_title">Day 1: Chin Tucks</string>
+    <string name="day1_description">Sit or stand with your back straight. Gently tuck your chin towards your chest, creating a double chin. Hold for a few seconds, then release. Repeat 10 times.</string>
+
+    <!-- Day 2: Shoulder Blade Squeezes -->
+    <string name="day2_title">Day 2: Shoulder Blade Squeezes</string>
+    <string name="day2_description">Sit up straight. Squeeze your shoulder blades together as if you\'re trying to hold a pencil between them. Hold for a few seconds, then relax. Repeat 12 times.</string>
+
+    <!-- Day 3: Wall Angels -->
+    <string name="day3_title">Day 3: Wall Angels</string>
+    <string name="day3_description">Stand with your back against a wall. Slowly slide your arms up the wall into a "Y" shape, then back down. Keep your lower back flat against the wall throughout. Repeat 10 times.</string>
+
+    <!-- Day 4: Cat-Cow Stretch -->
+    <string name="day4_title">Day 4: Cat-Cow Stretch</string>
+    <string name="day4_description">Start on your hands and knees. Inhale, arch your back and lift your head (Cow pose). Exhale, round your back towards the ceiling, tuck your chin (Cat pose). Repeat 15 times.</string>
+
+    <!-- Day 5: Thoracic Extension -->
+    <string name="day5_title">Day 5: Thoracic Extension</string>
+    <string name="day5_description">Sit on the floor with a foam roller behind your mid–back. Support your head with your hands. Lean back over the foam roller, extending your upper back. Hold for 15–30 seconds.</string>
+
+    <!-- Day 6: Scapular Wall Slides -->
+    <string name="day6_title">Day 6: Scapular Wall Slides</string>
+    <string name="day6_description">Stand with your back against a wall, arms bent at 90 degrees with elbows and wrists against the wall. Slide your arms up and down the wall while keeping contact. Repeat 12 times.</string>
+
+    <!-- Day 7: Prone Cobra -->
+    <string name="day7_title">Day 7: Prone Cobra</string>
+    <string name="day7_description">Lie face down with arms by your sides. Lift your chest off the floor, squeezing your shoulder blades together. Hold for a few seconds, then lower down. Repeat 8 times.</string>
+
+    <!-- Day 8: Plank -->
+    <string name="day8_title">Day 8: Plank</string>
+    <string name="day8_description">Get into a push–up position, but with your weight on your forearms. Keep your body in a straight line from head to heels. Hold for 20–30 seconds, gradually increasing time as you progress.</string>
+
+    <!-- Day 9: Wall Sit -->
+    <string name="day9_title">Day 9: Wall Sit</string>
+    <string name="day9_description">Lean against a wall with your knees bent at a 90–degree angle. Hold this position for 30–60 seconds, focusing on keeping your back against the wall.</string>
+
+    <!-- Day 10: Seated Rows with Resistance Band -->
+    <string name="day10_title">Day 10: Seated Rows with Resistance Band</string>
+    <string name="day10_description">Sit on the floor with your legs extended. Loop a resistance band around your feet and pull the handles towards your body, squeezing your shoulder blades. Repeat 12 times.</string>
+
+    <!-- Day 11: Neck Retraction -->
+    <string name="day11_title">Day 11: Neck Retraction</string>
+    <string name="day11_description">Sit or stand tall. Draw your head back so your ears align over your shoulders. Hold for a few seconds, then release. Repeat 10 times.</string>
+
+    <!-- Day 12: Hip Flexor Stretch -->
+    <string name="day12_title">Day 12: Hip Flexor Stretch</string>
+    <string name="day12_description">Kneel on one knee with the other foot in front, knee bent at 90 degrees. Push your hips forward until you feel a stretch in the front of your hip. Hold for 30 seconds on each side.</string>
+
+    <!-- Day 13: Child's Pose -->
+    <string name="day13_title">Day 13: Child\'s Pose</string>
+    <string name="day13_description">Start on hands and knees, then sit back on your heels, arms extended forward. Relax your forehead on the floor. Hold for 30 seconds.</string>
+
+    <!-- Day 14: Reverse Plank -->
+    <string name="day14_title">Day 14: Reverse Plank</string>
+    <string name="day14_description">Sit on the floor with legs extended and hands behind you, fingers pointing towards your feet. Lift your hips towards the ceiling until your body forms a straight line. Hold for 20–30 seconds.</string>
+
+    <!-- Day 15: Bird Dog -->
+    <string name="day15_title">Day 15: Bird Dog</string>
+    <string name="day15_description">Start on hands and knees. Extend your right arm forward and left leg back, keeping your back flat. Hold briefly, then switch sides. Repeat 10 times per side.</string>
+
+    <!-- Day 16: Hip Hinge -->
+    <string name="day16_title">Day 16: Hip Hinge</string>
+    <string name="day16_description">Stand with feet hip-width apart. Keeping your back straight, hinge at your hips and lower your torso towards the floor, then return to standing. Repeat 15 times.</string>
+
+    <!-- Day 17: Side Plank -->
+    <string name="day17_title">Day 17: Side Plank</string>
+    <string name="day17_description">Lie on your side, supporting your body with your forearm and side of your foot. Keep your body in a straight line from head to heels. Hold for 20–30 seconds per side.</string>
+
+    <!-- Day 18: Bridge Pose -->
+    <string name="day18_title">Day 18: Bridge Pose</string>
+    <string name="day18_description">Lie on your back with knees bent and feet flat on the floor. Lift your hips towards the ceiling, squeezing your glutes. Hold for 10–15 seconds, then lower down. Repeat 12 times.</string>
+
+    <!-- Day 19: Standing Shoulder Rolls -->
+    <string name="day19_title">Day 19: Standing Shoulder Rolls</string>
+    <string name="day19_description">Stand up straight. Roll your shoulders forward in a circular motion for 10 repetitions, then reverse the direction for another 10 repetitions.</string>
+
+    <!-- Day 20: Chest Opener Stretch -->
+    <string name="day20_title">Day 20: Chest Opener Stretch</string>
+    <string name="day20_description">Stand in a doorway. Place your forearms on the doorframe slightly above shoulder height. Lean forward, stretching your chest muscles. Hold for 30 seconds.</string>
+
+    <!-- Day 21: Wrist Flexor Stretch -->
+    <string name="day21_title">Day 21: Wrist Flexor Stretch</string>
+    <string name="day21_description">Extend your arm in front with palm up. Use your other hand to gently pull your fingers back towards your body until you feel a stretch in your forearm. Hold for 20 seconds, then switch sides.</string>
+
+    <!-- Day 22: Standing Quad Stretch -->
+    <string name="day22_title">Day 22: Standing Quad Stretch</string>
+    <string name="day22_description">Stand on one leg, bend your other knee and grab your ankle with your hand. Pull your heel towards your buttocks until you feel a stretch in the front of your thigh. Hold for 30 seconds per leg.</string>
+
+    <!-- Day 23: Doorway Pec Stretch -->
+    <string name="day23_title">Day 23: Doorway Pec Stretch</string>
+    <string name="day23_description">Stand in a doorway with elbows bent at 90 degrees and forearms resting on the doorframe. Lean forward gently to stretch the chest. Hold for 30 seconds.</string>
+
+    <!-- Day 24: Thoracic Rotations -->
+    <string name="day24_title">Day 24: Thoracic Rotations</string>
+    <string name="day24_description">Sit on a chair with feet flat on the floor. Clasp your hands behind your head. Rotate your torso to one side, then the other, keeping your hips facing forward. Repeat 10 times per side.</string>
+
+    <!-- Day 25: Quadruped Thoracic Rotations -->
+    <string name="day25_title">Day 25: Quadruped Thoracic Rotations</string>
+    <string name="day25_description">Start on hands and knees. Reach one arm under your body, rotating your upper back. Follow your hand with your gaze. Return to start and repeat on the other side. Do 10 rotations per side.</string>
+
+    <!-- Day 26: Prone Shoulder External Rotation -->
+    <string name="day26_title">Day 26: Prone Shoulder External Rotation</string>
+    <string name="day26_description">Lie face down with arms at your sides, elbows bent at 90 degrees. Lift your arms off the floor, rotating forearms outwards. Hold for a few seconds, then lower down. Repeat 12 times.</string>
+
+    <!-- Day 27: Kneeling Hip Flexor Stretch -->
+    <string name="day27_title">Day 27: Kneeling Hip Flexor Stretch</string>
+    <string name="day27_description">Kneel on one knee with the other foot in front, knee bent at 90 degrees. Tuck your pelvis and push your hips forward until you feel a stretch in the front of your hip. Hold for 30 seconds on each side.</string>
+
+    <!-- Day 28: Lateral Band Walks -->
+    <string name="day28_title">Day 28: Lateral Band Walks</string>
+    <string name="day28_description">Place a resistance band around your legs, just above your knees. Bend your knees slightly and step sideways, maintaining tension in the band. Do 10 steps each way.</string>
+
+    <!-- Day 29: Wall Chest Press -->
+    <string name="day29_title">Day 29: Wall Chest Press</string>
+    <string name="day29_description">Stand facing a wall. Place your hands on the wall at shoulder height. Lean forward, then push away from the wall, keeping your elbows slightly bent. Repeat 15 times.</string>
+
+    <!-- Day 30: Standing Back Extension -->
+    <string name="day30_title">Day 30: Standing Back Extension</string>
+    <string name="day30_description">Stand with feet hip-width apart, hands on hips. Gently lean back, arching your upper back and looking up towards the ceiling. Hold for a few seconds, then return to start. Repeat 8 times.</string>
+
 </resources>
+
