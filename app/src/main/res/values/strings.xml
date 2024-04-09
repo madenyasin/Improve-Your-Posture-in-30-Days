@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Improve Your Posture in 30 Days</string>
 
     <!-- Day 1: Chin Tucks -->
@@ -120,6 +120,37 @@
     <!-- Day 30: Standing Back Extension -->
     <string name="day30_title">Day 30: Standing Back Extension</string>
     <string name="day30_description">Stand with feet hip-width apart, hands on hips. Gently lean back, arching your upper back and looking up towards the ceiling. Hold for a few seconds, then return to start. Repeat 8 times.</string>
+
+    <string name="day1_videoURL">https://www.youtube.com/watch?v=u8C5LgpK3r4</string>
+    <string name="day2_videoURL">https://www.youtube.com/watch?v=ouRhQE2iOI8</string>
+    <string name="day3_videoURL">https://www.youtube.com/watch?v=ywYi4rBhRBQ</string>
+    <string name="day4_videoURL">https://www.youtube.com/watch?v=vuyUwtHl694</string>
+    <string name="day5_videoURL">https://www.youtube.com/watch?v=ojCkd6_VdNk</string>
+    <string name="day6_videoURL">https://www.youtube.com/watch?v=c1rn3sjgbfY</string>
+    <string name="day7_videoURL" tools:ignore="Typos">https://www.youtube.com/watch?v=j1jT01tnl1Q</string>
+    <string name="day8_videoURL">https://www.youtube.com/watch?v=zN4ztr3IFCI</string>
+    <string name="day9_videoURL" tools:ignore="Typos">https://www.youtube.com/watch?v=cWTZ8Am1Ee0</string>
+    <string name="day10_videoURL">https://www.youtube.com/watch?v=ovn27-bSHj4</string>
+    <string name="day11_videoURL">https://www.youtube.com/watch?v=VYcifC6BFgc</string>
+    <string name="day12_videoURL">https://www.youtube.com/watch?v=DXuStgWuJV8</string>
+    <string name="day13_videoURL">https://www.youtube.com/watch?v=nMp3MlTz9fA</string>
+    <string name="day14_videoURL">https://www.youtube.com/watch?v=v2pPWNSDorE</string>
+    <string name="day15_videoURL">https://www.youtube.com/watch?v=QABW99qPiNM</string>
+    <string name="day16_videoURL">https://www.youtube.com/watch?v=sinpFajtRPw</string>
+    <string name="day17_videoURL">https://www.youtube.com/watch?v=_R389Jk0tIo</string>
+    <string name="day18_videoURL">https://www.youtube.com/watch?v=XUcAuYd7VU0</string>
+    <string name="day19_videoURL">https://www.youtube.com/watch?v=IKJZL4hvppw</string>
+    <string name="day20_videoURL">https://www.youtube.com/watch?v=fKrrITz4zRc</string>
+    <string name="day21_videoURL">https://www.youtube.com/watch?v=R7dI2ZcbiMI</string>
+    <string name="day22_videoURL">https://www.youtube.com/watch?v=zi5__zBRzYc</string>
+    <string name="day23_videoURL">https://www.youtube.com/watch?v=CEQMx4zFwYs</string>
+    <string name="day24_videoURL">https://www.youtube.com/watch?v=C8wzQhlXPx8</string>
+    <string name="day25_videoURL">https://www.youtube.com/watch?v=AzCghjjWt5k</string>
+    <string name="day26_videoURL">https://www.youtube.com/watch?v=2c2EUK67Rs8</string>
+    <string name="day27_videoURL">https://www.youtube.com/watch?v=34SlL-PPCWQ</string>
+    <string name="day28_videoURL" tools:ignore="Typos">https://www.youtube.com/watch?v=MZ1HbVflLUI</string>
+    <string name="day29_videoURL">https://www.youtube.com/watch?v=5NPvv40gd3Q</string>
+    <string name="day30_videoURL">https://www.youtube.com/watch?v=xKIuvqXeqsE</string>
 
 </resources>
 
