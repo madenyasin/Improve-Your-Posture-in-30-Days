@@ -76,7 +76,6 @@ fun YoutubePlayer(
 @Composable
 fun ExerciseCard(
     exercise: Exercise,
-    modifier: Modifier = Modifier
 ) {
     var expanded by remember {
         mutableStateOf(false)
