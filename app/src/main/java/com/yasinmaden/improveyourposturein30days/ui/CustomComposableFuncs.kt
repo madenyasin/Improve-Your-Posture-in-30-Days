@@ -32,7 +32,7 @@ import com.yasinmaden.improveyourposturein30days.model.Exercise
 import com.yasinmaden.improveyourposturein30days.ui.theme.ImproveYourPostureIn30DaysTheme
 import com.yasinmaden.improveyourposturein30days.ui.theme.Shapes
 
-// TODO: autoplay will be stopped.
+
 @Composable
 fun YoutubePlayer(
     youtubeVideoId: String,
@@ -49,7 +49,7 @@ fun YoutubePlayer(
 
                 addYouTubePlayerListener(object : AbstractYouTubePlayerListener() {
                     override fun onReady(youTubePlayer: YouTubePlayer) {
-                        youTubePlayer.loadVideo(youtubeVideoId, 0f)
+                        youTubePlayer.cueVideo(youtubeVideoId, 0f)
                     }
                 })
             }
