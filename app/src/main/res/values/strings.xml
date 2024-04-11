@@ -121,36 +121,36 @@
     <string name="day30_title">Day 30: Standing Back Extension</string>
     <string name="day30_description">Stand with feet hip-width apart, hands on hips. Gently lean back, arching your upper back and looking up towards the ceiling. Hold for a few seconds, then return to start. Repeat 8 times.</string>
 
-    <string name="day1_videoURL">https://www.youtube.com/watch?v=u8C5LgpK3r4</string>
-    <string name="day2_videoURL">https://www.youtube.com/watch?v=ouRhQE2iOI8</string>
-    <string name="day3_videoURL">https://www.youtube.com/watch?v=ywYi4rBhRBQ</string>
-    <string name="day4_videoURL">https://www.youtube.com/watch?v=vuyUwtHl694</string>
-    <string name="day5_videoURL">https://www.youtube.com/watch?v=ojCkd6_VdNk</string>
-    <string name="day6_videoURL">https://www.youtube.com/watch?v=c1rn3sjgbfY</string>
-    <string name="day7_videoURL" tools:ignore="Typos">https://www.youtube.com/watch?v=j1jT01tnl1Q</string>
-    <string name="day8_videoURL">https://www.youtube.com/watch?v=zN4ztr3IFCI</string>
-    <string name="day9_videoURL" tools:ignore="Typos">https://www.youtube.com/watch?v=cWTZ8Am1Ee0</string>
-    <string name="day10_videoURL">https://www.youtube.com/watch?v=ovn27-bSHj4</string>
-    <string name="day11_videoURL">https://www.youtube.com/watch?v=VYcifC6BFgc</string>
-    <string name="day12_videoURL">https://www.youtube.com/watch?v=DXuStgWuJV8</string>
-    <string name="day13_videoURL">https://www.youtube.com/watch?v=nMp3MlTz9fA</string>
-    <string name="day14_videoURL">https://www.youtube.com/watch?v=v2pPWNSDorE</string>
-    <string name="day15_videoURL">https://www.youtube.com/watch?v=QABW99qPiNM</string>
-    <string name="day16_videoURL">https://www.youtube.com/watch?v=sinpFajtRPw</string>
-    <string name="day17_videoURL">https://www.youtube.com/watch?v=_R389Jk0tIo</string>
-    <string name="day18_videoURL">https://www.youtube.com/watch?v=XUcAuYd7VU0</string>
-    <string name="day19_videoURL">https://www.youtube.com/watch?v=IKJZL4hvppw</string>
-    <string name="day20_videoURL">https://www.youtube.com/watch?v=fKrrITz4zRc</string>
-    <string name="day21_videoURL">https://www.youtube.com/watch?v=R7dI2ZcbiMI</string>
-    <string name="day22_videoURL">https://www.youtube.com/watch?v=zi5__zBRzYc</string>
-    <string name="day23_videoURL">https://www.youtube.com/watch?v=CEQMx4zFwYs</string>
-    <string name="day24_videoURL">https://www.youtube.com/watch?v=C8wzQhlXPx8</string>
-    <string name="day25_videoURL">https://www.youtube.com/watch?v=AzCghjjWt5k</string>
-    <string name="day26_videoURL">https://www.youtube.com/watch?v=2c2EUK67Rs8</string>
-    <string name="day27_videoURL">https://www.youtube.com/watch?v=34SlL-PPCWQ</string>
-    <string name="day28_videoURL" tools:ignore="Typos">https://www.youtube.com/watch?v=MZ1HbVflLUI</string>
-    <string name="day29_videoURL">https://www.youtube.com/watch?v=5NPvv40gd3Q</string>
-    <string name="day30_videoURL">https://www.youtube.com/watch?v=xKIuvqXeqsE</string>
+    <string name="day1_videoURL">u8C5LgpK3r4</string>
+    <string name="day2_videoURL">ouRhQE2iOI8</string>
+    <string name="day3_videoURL">ywYi4rBhRBQ</string>
+    <string name="day4_videoURL">vuyUwtHl694</string>
+    <string name="day5_videoURL">ojCkd6_VdNk</string>
+    <string name="day6_videoURL">c1rn3sjgbfY</string>
+    <string name="day7_videoURL" tools:ignore="Typos">j1jT01tnl1Q</string>
+    <string name="day8_videoURL">zN4ztr3IFCI</string>
+    <string name="day9_videoURL" tools:ignore="Typos">cWTZ8Am1Ee0</string>
+    <string name="day10_videoURL">ovn27-bSHj4</string>
+    <string name="day11_videoURL">VYcifC6BFgc</string>
+    <string name="day12_videoURL">DXuStgWuJV8</string>
+    <string name="day13_videoURL">nMp3MlTz9fA</string>
+    <string name="day14_videoURL">v2pPWNSDorE</string>
+    <string name="day15_videoURL">QABW99qPiNM</string>
+    <string name="day16_videoURL">sinpFajtRPw</string>
+    <string name="day17_videoURL">_R389Jk0tIo</string>
+    <string name="day18_videoURL">XUcAuYd7VU0</string>
+    <string name="day19_videoURL">IKJZL4hvppw</string>
+    <string name="day20_videoURL">fKrrITz4zRc</string>
+    <string name="day21_videoURL">R7dI2ZcbiMI</string>
+    <string name="day22_videoURL">zi5__zBRzYc</string>
+    <string name="day23_videoURL">CEQMx4zFwYs</string>
+    <string name="day24_videoURL">C8wzQhlXPx8</string>
+    <string name="day25_videoURL">AzCghjjWt5k</string>
+    <string name="day26_videoURL">2c2EUK67Rs8</string>
+    <string name="day27_videoURL">34SlL-PPCWQ</string>
+    <string name="day28_videoURL" tools:ignore="Typos">MZ1HbVflLUI</string>
+    <string name="day29_videoURL">5NPvv40gd3Q</string>
+    <string name="day30_videoURL">xKIuvqXeqsE</string>
 
 </resources>
 
