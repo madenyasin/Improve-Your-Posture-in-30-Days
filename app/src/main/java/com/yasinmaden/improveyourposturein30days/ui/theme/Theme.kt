@@ -83,6 +83,7 @@ private val DarkColors = darkColorScheme(
     outlineVariant = md_theme_dark_outlineVariant,
     scrim = md_theme_dark_scrim,
 )
+
 /**
  * Sets up edge-to-edge for the window of this [view]. The system icon colors are set to either
  * light or dark depending on whether the [darkTheme] is enabled or not.

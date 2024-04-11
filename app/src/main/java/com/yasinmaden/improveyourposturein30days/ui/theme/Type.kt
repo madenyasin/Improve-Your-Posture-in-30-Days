@@ -9,29 +9,29 @@ import androidx.compose.ui.unit.sp
 import com.yasinmaden.improveyourposturein30days.R
 
 
-val AnekTamil = FontFamily(
-    Font(R.font.anek_tamil_regular),
-    Font(R.font.anek_tamil_bold, FontWeight.Bold)
+val Poppins = FontFamily(
+    Font(R.font.poppins_regular),
+    Font(R.font.poppins_bold, FontWeight.Bold)
 )
 
 val Typography = Typography(
     displayLarge = TextStyle(
-        fontFamily = AnekTamil,
+        fontFamily = Poppins,
         fontWeight = FontWeight.Normal,
         fontSize = 36.sp
     ),
     displayMedium = TextStyle(
-        fontFamily = AnekTamil,
+        fontFamily = Poppins,
         fontWeight = FontWeight.Bold,
         fontSize = 20.sp
     ),
     labelSmall = TextStyle(
-        fontFamily = AnekTamil,
+        fontFamily = Poppins,
         fontWeight = FontWeight.Bold,
         fontSize = 14.sp
     ),
     bodyLarge = TextStyle(
-        fontFamily = AnekTamil,
+        fontFamily = Poppins,
         fontWeight = FontWeight.Normal,
         fontSize = 14.sp
     )
