@@ -1,19 +1,31 @@
 package com.yasinmaden.improveyourposturein30days.ui
 
 import android.annotation.SuppressLint
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalLifecycleOwner
@@ -56,37 +68,76 @@ fun YoutubePlayer(
         })
 }
 
+
+
 @Composable
 fun ExerciseCard(
     exercise: Exercise,
     modifier: Modifier = Modifier
 ) {
+    var expanded by remember {
+        mutableStateOf(false)
+    }
+    var imageVector by remember {
+        mutableStateOf(Icons.Filled.KeyboardArrowDown)
+    }
+
     Card(
         shape = Shapes.large,
         elevation = CardDefaults.cardElevation(
             defaultElevation = 2.dp
-        ), modifier = Modifier.padding(horizontal = dimensionResource(id = R.dimen.medium), vertical = dimensionResource(id = R.dimen.small))
+        ),
+        modifier = Modifier
+            .padding(
+                horizontal = dimensionResource(id = R.dimen.medium),
+                vertical = dimensionResource(id = R.dimen.small)
+            )
+            .fillMaxWidth()
     ) {
         Column(modifier = Modifier.padding(dimensionResource(id = R.dimen.medium))) {
-            Text(
-                text = stringResource(exercise.nameRes),
-                style = MaterialTheme.typography.titleLarge,
-                modifier = Modifier.padding(dimensionResource(id = R.dimen.small))
-            )
-            YoutubePlayer(
-                youtubeVideoId = stringResource(exercise.videoUrlRes),
-                lifecycleOwner = LocalLifecycleOwner.current
-            )
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text(
+                    text = stringResource(exercise.nameRes),
+                    style = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.padding(dimensionResource(id = R.dimen.small))
+                )
+                IconButton(onClick = {
+                    expanded = !expanded
+                    imageVector = if (expanded) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown
+                }) {
+                    Icon(
+                        imageVector = imageVector,
+                        contentDescription = null
+                    )
+                }
+
+
+            }
+            if (expanded){
+                YoutubePlayer(
+                    youtubeVideoId = stringResource(exercise.videoUrlRes),
+                    lifecycleOwner = LocalLifecycleOwner.current
+                )
+            }
+
+
+
             Text(
                 text = stringResource(id = exercise.descriptionRes),
                 style = MaterialTheme.typography.bodyLarge,
                 modifier = Modifier.padding(dimensionResource(id = R.dimen.small))
             )
+
+
         }
     }
 }
 
-@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ExerciseApp(modifier: Modifier = Modifier) {
