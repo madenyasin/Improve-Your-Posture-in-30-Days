@@ -1,6 +1,8 @@
 package com.yasinmaden.improveyourposturein30days.ui
 
-import android.annotation.SuppressLint
+import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.spring
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -69,7 +71,6 @@ fun YoutubePlayer(
 }
 
 
-
 @Composable
 fun ExerciseCard(
     exercise: Exercise,
@@ -94,7 +95,16 @@ fun ExerciseCard(
             )
             .fillMaxWidth()
     ) {
-        Column(modifier = Modifier.padding(dimensionResource(id = R.dimen.medium))) {
+        Column(
+            modifier = Modifier
+                .animateContentSize(
+                    animationSpec = spring(
+                        dampingRatio = Spring.DampingRatioMediumBouncy,
+                        stiffness = Spring.StiffnessLow
+                    )
+                )
+                .padding(dimensionResource(id = R.dimen.medium))
+        ) {
             Row(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -107,7 +117,8 @@ fun ExerciseCard(
                 )
                 IconButton(onClick = {
                     expanded = !expanded
-                    imageVector = if (expanded) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown
+                    imageVector =
+                        if (expanded) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown
                 }) {
                     Icon(
                         imageVector = imageVector,
@@ -117,7 +128,7 @@ fun ExerciseCard(
 
 
             }
-            if (expanded){
+            if (expanded) {
                 YoutubePlayer(
                     youtubeVideoId = stringResource(exercise.videoUrlRes),
                     lifecycleOwner = LocalLifecycleOwner.current
